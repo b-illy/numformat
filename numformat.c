@@ -1,8 +1,4 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
-#include <limits.h>
-#include <math.h>
+#include "numformat.h"
 
 char* numformat(long long unsigned input) {
     // re-parse as string to ensure no leading zeros, decimals, etc.
